@@ -1,0 +1,25 @@
+/* layout.css */
+
+body {
+	background: #EDEEEF;
+}
+#page {
+	width: 1040px;
+	margin: 0 auto;
+	padding: 10px 20px 0;
+	background-color: #FFFFFF;
+}
+#primary {
+	float: left;
+	width: 650px;
+}
+#main .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 175px;
+}
+#colophon {
+	clear: both;
+	text-align: center;
+	padding: 1em 0;
+}

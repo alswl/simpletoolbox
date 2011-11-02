@@ -1,0 +1,461 @@
+# Amir Yalon <translations@amiryal.fastmail.fm>, 2008. http://www.yxejamir.net/
+# translation of sandbox.pot to Hebrew
+msgid ""
+msgstr ""
+"Project-Id-Version: Sandbox 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-28 01:04-0500\n"
+"PO-Revision-Date: 2009-08-04 22:30+0800\n"
+"Last-Translator: kily zhou <keeliizhou@gmail.com>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: 404.php:7
+msgid "Not Found"
+msgstr "怎么没有你要找的东西呢！请确定你要查找的内容"
+
+#: 404.php:9
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
+msgstr "你可以在下面的搜索栏中重新搜索你想要的内容"
+
+#: 404.php:14
+#: functions.php:362
+#: search.php:56
+#: sidebar.php:39
+msgid "Find"
+msgstr "查找"
+
+#: archive.php:9
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "博客文章日存档：<span>%s</span>"
+
+#: archive.php:11
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "博客文章月存档： <span>%s</span>"
+
+#: archive.php:13
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "博客文章年存档：<span>%s</span>"
+
+#: archive.php:15
+msgid "Blog Archives"
+msgstr "博客文章存档："
+
+#: archive.php:21
+#: archive.php:48
+#: author.php:12
+#: author.php:39
+#: category.php:11
+#: category.php:40
+#: index.php:7
+#: index.php:37
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> 较老的文章"
+
+#: archive.php:22
+#: archive.php:49
+#: author.php:13
+#: author.php:40
+#: category.php:12
+#: category.php:41
+#: index.php:8
+#: index.php:38
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "较新文章<span class=\"meta-nav\">&raquo;</span>"
+
+#: archive.php:28
+#: author.php:21
+#: category.php:18
+#: index.php:14
+#: search.php:18
+#, php-format
+msgid "Permalink to %s"
+msgstr "固定链接于：%s"
+
+#: archive.php:29
+#: author.php:22
+#: category.php:19
+#: index.php:15
+#: search.php:19
+#, php-format
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: archive.php:31
+#: author.php:24
+#: category.php:21
+#: index.php:17
+#: search.php:21
+msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr "阅读全文 <span class=\"meta-nav\">&raquo;</span>"
+
+#: archive.php:35
+#: category.php:25
+#: index.php:22
+#: search.php:27
+#, php-format
+msgid "By %s"
+msgstr "作者  %s"
+
+#: archive.php:35
+#: attachment.php:20
+#: category.php:25
+#: image.php:21
+#: index.php:22
+#: search.php:27
+#, php-format
+msgid "View all posts by %s"
+msgstr "按%s查看所有文章"
+
+#: archive.php:37
+#: author.php:28
+#: index.php:24
+#: search.php:29
+#, php-format
+msgid "Posted in %s"
+msgstr "分类于  %s"
+
+#: archive.php:39
+#: author.php:30
+#: category.php:31
+#: index.php:26
+#: search.php:31
+msgid "<span class=\"tag-links\">Tagged "
+msgstr "<span class=\"tag-links\">标签 "
+
+#: archive.php:40
+#: archives.php:32
+#: attachment.php:38
+#: author.php:31
+#: category.php:32
+#: comments.php:40
+#: comments.php:66
+#: image.php:39
+#: index.php:27
+#: links.php:22
+#: page.php:15
+#: search.php:32
+msgid "Edit"
+msgstr "编辑"
+
+#: archive.php:41
+#: author.php:32
+#: category.php:33
+#: index.php:28
+#: search.php:33
+msgid "Comments (0)"
+msgstr "评论 (0)"
+
+#: archive.php:41
+#: author.php:32
+#: category.php:33
+#: index.php:28
+#: search.php:33
+msgid "Comments (1)"
+msgstr "评论 (1)"
+
+#: archive.php:41
+#: author.php:32
+#: category.php:33
+#: index.php:28
+#: search.php:33
+msgid "Comments (%)"
+msgstr "评论 (%)"
+
+#: archives.php:20
+msgid "Archives by Category"
+msgstr "按分类文章归档"
+
+#: archives.php:26
+msgid "Archives by Month"
+msgstr "按月份文章归档"
+
+#: attachment.php:8
+#: image.php:8
+#, php-format
+msgid "Return to %s"
+msgstr "返回到 %s"
+
+#: attachment.php:19
+#: image.php:20
+#, php-format
+msgid "Posted by %1$s on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>. Bookmark the <a href=\"%6$s\" title=\"Permalink to %7$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%8$s\" title=\"Comments RSS to %7$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
+msgstr "作者 %1$s on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s 在 %5$s</abbr>. Bookmark the <a href=\"%6$s\" title=\"Permalink to %7$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%8$s\" title=\"Comments RSS to %7$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
+
+#: attachment.php:30
+#: image.php:31
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"写一条评论\">写一条评论</a> 或者留一个 trackback: <a class=\"trackback-link\" href=\"%s\" title=\"你文章的Trackback URL\" rel=\"trackback\">Trackback URL</a>."
+
+#: attachment.php:32
+#: image.php:33
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "评论被关闭，但你可以留一个 trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback 地址</a>."
+
+#: attachment.php:34
+#: image.php:35
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks 被关闭，但是你可以 <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">留下评论</a>."
+
+#: attachment.php:36
+#: image.php:37
+msgid "Both comments and trackbacks are currently closed."
+msgstr "评论和trackbacks都被关闭"
+
+#: author.php:8
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "作者 Archives: <span class=\"vcard\">%s</span>"
+
+#: category.php:6
+msgid "Category Archives:"
+msgstr "分类文章存档："
+
+#: category.php:28
+#, php-format
+msgid "Also posted in %s"
+msgstr "也发表于 %s"
+
+#: comments.php:10
+msgid "This post is protected. Enter the password to view any comments."
+msgstr "这往篇文章有私人信息，只能输入密码查看哦。"
+
+#: comments.php:29
+#, php-format
+msgid "<span>%d</span> Comments"
+msgstr "<span>%d</span> 条留言"
+
+#: comments.php:29
+msgid "<span>One</span> Comment"
+msgstr "<span>一条</span> 留言"
+
+#: comments.php:36
+#, php-format
+msgid "Posted %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Permalink to this comment\">Permalink</a>"
+msgstr "被发表在 %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"这条评论的固定链接\">固定链接</a>"
+
+#: comments.php:41
+msgid "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</span>\n"
+msgstr "\t\t\t\t\t<span class='unapproved'>您是第一次留言吧。稍等让我看看是不是spam。</span>\n"
+
+#: comments.php:55
+#, php-format
+msgid "<span>%d</span> Trackbacks"
+msgstr "<span>%d</span> Trackbacks"
+
+#: comments.php:55
+msgid "<span>One</span> Trackback"
+msgstr "<span>一个</span> Trackback"
+
+#: comments.php:62
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr "By %1$s on %2$s at %3$s"
+
+#: comments.php:67
+msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
+msgstr "\\t\\t\\t\\t\\t<span class=\"unapproved\">你的trackback在审核中。</span>\\n"
+
+#: comments.php:82
+msgid "Post a Comment"
+msgstr "留下一条评论"
+
+#: comments.php:85
+#, php-format
+msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "你必须 <a href=\"%s\" title=\"Log in\">登陆</a> 来发表评论"
+
+#: comments.php:93
+#, php-format
+msgid "<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log out of this account\">Log out?</a></span>"
+msgstr "<span class=\"loggedin\">登陆为 <a href=\"%1$s\" title=\">登陆为  %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"注消用户\">注消？</a></span>"
+
+#: comments.php:100
+msgid "Your email is <em>never</em> shared."
+msgstr "你的邮箱不会被公开 . "
+
+#: comments.php:100
+msgid "Required fields are marked <span class=\"required\">*</span>"
+msgstr " <span class=\"required\">*</span>标注为必填"
+
+#: comments.php:102
+msgid "Name"
+msgstr "昵称"
+
+#: comments.php:102
+#: comments.php:105
+msgid "<span class=\"required\">*</span>"
+msgstr "<span class=\"required\">*</span>"
+
+#: comments.php:105
+msgid "Email"
+msgstr "电子邮箱"
+
+#: comments.php:108
+msgid "Website"
+msgstr "你的网站"
+
+#: comments.php:113
+msgid "Comment"
+msgstr "留言"
+
+#: comments.php:116
+msgid "Post Comment"
+msgstr "提交留言"
+
+#: footer.php:3
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:5
+msgid "Sandbox theme for WordPress"
+msgstr "Sandbox theme for WordPress"
+
+#: footer.php:5
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: functions.php:361
+#: functions.php:469
+#: functions.php:471
+#: sidebar.php:35
+msgid "Search"
+msgstr "搜索"
+
+#: functions.php:390
+#: functions.php:443
+msgid "Title:"
+msgstr "标题："
+
+#: functions.php:391
+msgid "Button Text:"
+msgstr "按钮文本："
+
+#: functions.php:400
+#: functions.php:478
+#: functions.php:480
+#: sidebar.php:55
+msgid "Meta"
+msgstr "功能"
+
+#: functions.php:419
+#: functions.php:487
+#: functions.php:488
+msgid "RSS Links"
+msgstr "RSS 链接"
+
+#: functions.php:424
+msgid "Posts RSS feed"
+msgstr "文章 RSS feed"
+
+#: functions.php:424
+#: sidebar.php:49
+msgid "All posts"
+msgstr "所有文章"
+
+#: functions.php:425
+msgid "Comments RSS feed"
+msgstr "评论 RSS feed"
+
+#: functions.php:425
+#: sidebar.php:50
+msgid "All comments"
+msgstr "所有评论"
+
+#: functions.php:467
+msgid "A search form for your blog (Sandbox)"
+msgstr "你博客的搜索框(Sandbox)"
+
+#: functions.php:476
+msgid "Log in/out and administration links (Sandbox)"
+msgstr "登陆/注消 管理链接 (Sandbox)"
+
+#: functions.php:485
+msgid "RSS links for both posts and comments (Sandbox)"
+msgstr "文章和评论的 RSS 链接  (Sandbox)"
+
+#: header.php:8
+#: sidebar.php:49
+#, php-format
+msgid "%s latest posts"
+msgstr "%s 最新文章"
+
+#: header.php:9
+#: sidebar.php:50
+#, php-format
+msgid "%s latest comments"
+msgstr "%s 最新评论"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "跳到内容"
+
+#: index.php:19
+#: page.php:13
+msgid "Pages:"
+msgstr "页面："
+
+#: search.php:8
+msgid "Search Results for:"
+msgstr "您的搜索结果："
+
+#: search.php:11
+#: search.php:42
+msgid "<span class=\"meta-nav\">&laquo;</span> Older results"
+msgstr "<span class=\"meta-nav\">&laquo;</span> 旧的搜索结果"
+
+#: search.php:12
+#: search.php:43
+msgid "Newer results <span class=\"meta-nav\">&raquo;</span>"
+msgstr "新的搜索结果 <span class=\"meta-nav\">&raquo;</span>"
+
+#: search.php:49
+msgid "Nothing Found"
+msgstr "没找到您想要的东西"
+
+#: search.php:51
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "怎么没有你要找的东西呢！请确定你要查找的内容。也可以在下面的搜索栏中重新搜索你想要的内容"
+
+#: sidebar.php:6
+msgid "Pages"
+msgstr "页面"
+
+#: sidebar.php:13
+msgid "Categories"
+msgstr "文章分类"
+
+#: sidebar.php:21
+msgid "Archives"
+msgstr "文章存档"
+
+#: sidebar.php:47
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: single.php:21
+#, php-format
+msgid "This entry was written by %1$s, posted on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>, filed under %6$s%7$s. Bookmark the <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
+msgstr "这篇文章由 %1$s撰写 , 发表于 <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>, 分类于 %6$s%7$s. 标签 <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. 留下评论 <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">这篇文章的 RSS feed </a>."
+
+#: single.php:28
+msgid " and tagged "
+msgstr " and tagged "
+
+#: tag.php:6
+msgid "Tag Archives:"
+msgstr "按标签存档："
+
+#: tag.php:28
+#, php-format
+msgid "Also tagged %s"
+msgstr "标签 %s"
+

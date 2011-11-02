@@ -1,0 +1,6 @@
+Simple Toolbox
+==============
+
+Simple toolbox is a wordpress theme based on toolbox.
+
+// vim: set ft=asciidoc:
