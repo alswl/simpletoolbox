@@ -1,74 +1,74 @@
 /* container.css */
 
-.post {
+.post, .page {
 	padding: 0 0 10px 0;
 	margin: 0 0 10px 0;
 	border-bottom: 1px dotted #D5D5D5;
 }
-.post h1 {
+.post h1, .page h1 {
 	font-size: 1.6em;
 }
-.post .entry-meta {
+.entry-meta {
 	clear: both;
     color: #878789;
     padding-left: 4px;
 }
-.post .entry-content {
+.entry-content {
 	margin-top: 26px;
 	font-size: 1.16em;
 	line-height: 1.4em;
 }
-.post .entry-content h1 {
+.entry-content h1 {
 	border-left: 40px #005879 solid;
 }
 
-.post .entry-content h2 {
+.entry-content h2 {
 	border-left: 30px #0078A6 solid;
 	padding: 0 0 0 10px;
 }
 
-.post .entry-content h3 {
+.entry-content h3 {
 	border-left: 20px #00B3F7 solid;
 	padding: 0 0 0 20px;
 }
 
-.post .entry-content h4, .post .entry-content h5, .post .entry-content h6 {
+.entry-content h4, .entry-content h5, .entry-content h6 {
 	border-left: 10px #71D8FF solid;
 	padding: 0 0 0 30px;
 }
-.post .entry-content p, .post .entry-content ul, .post .entry-content ol,  .post .entry-content pre, .post .entry-content blockquote {
+.entry-content p, .entry-content ul, .entry-content ol,  .entry-content pre, .entry-content blockquote {
     margin: 1em 0;
 }
-.post .entry-content pre, .post .entry-content blockquote {
+.entry-content pre, .entry-content blockquote {
     border-left: 4px solid #6CE26C;
     margin-left: 10px;
     padding-left: 10px;
 }
-.post .entry-content ul li{
+.entry-content ul li{
 	list-style: disc inside;
 }
-.post .entry-content ol li{
+.entry-content ol li{
 	list-style: decimal inside;
 }
-.post .entry-content table {
+.entry-content table {
 	background: #FFF;
 	border: 2px solid #CCC;
 	border-collapse: collapse;
 	margin: 5px 0 10px;
 }
 
-.post .entry-content th, .entry-content td {
+.entry-content th, .entry-content td {
 	border: 1px solid #CCC;
 	padding: 3px 10px;
 	text-align: left;
 	vertical-align: top;
 }
 
-.post .entry-content tr.even td {
+.entry-content tr.even td {
 	background: #F7F7F7;
 }
 
-.post .entry-content th {
+.entry-content th {
 	background: #EDEFF0;
 }
 
