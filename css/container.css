@@ -36,10 +36,10 @@
 	border-left: 10px #71D8FF solid;
 	padding: 0 0 0 30px;
 }
-.post .entry-content p, .post .entry-content ul, .post .entry-content ol, .post .entry-content pre{
+.post .entry-content p, .post .entry-content ul, .post .entry-content ol,  .post .entry-content pre, .post .entry-content blockquote {
     margin: 1em 0;
 }
-.post .entry-content pre {
+.post .entry-content pre, .post .entry-content blockquote {
     border-left: 4px solid #6CE26C;
     margin-left: 10px;
     padding-left: 10px;
