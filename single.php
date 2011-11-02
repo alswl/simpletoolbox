@@ -14,11 +14,11 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php toolbox_content_nav( 'nav-above' ); ?>
+				<?php //toolbox_content_nav( 'nav-above' ); ?>
 
 				<?php get_template_part( 'content', 'single' ); ?>
 
-				<?php toolbox_content_nav( 'nav-below' ); ?>
+				<?php //toolbox_content_nav( 'nav-below' ); ?>
 
 				<?php comments_template( '', true ); ?>
 

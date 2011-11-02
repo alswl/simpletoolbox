@@ -37,7 +37,7 @@ get_header(); ?>
 
 				<?php rewind_posts(); ?>
 
-				<?php toolbox_content_nav( 'nav-above' ); ?>
+				<?php //toolbox_content_nav( 'nav-above' ); ?>
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -52,7 +52,7 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php toolbox_content_nav( 'nav-below' ); ?>
+				<?php //toolbox_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 

@@ -214,8 +214,6 @@ div {
 	outline: medium none;
 }
 textarea {
-	border: medium none;
-	outline: medium none;
 	overflow: auto;
 	resize: none;
 }
@@ -233,6 +231,12 @@ button {
 input[type="checkbox"] {
 	margin: 0 5px 0 0;
 	vertical-align: middle;
+}
+hr {
+    clear: both;
+    float: none;
+    height: 0.1em;
+    margin: 0.5em 0;
 }
 
 /* Image Attachments */
@@ -360,42 +364,4 @@ textarea {
 /* Class for labelling required form items */
 .required {
 	color: #cc0033;
-}
-
-
-/* =Comments
--------------------------------------------------------------- */
-
-article.comment {
-	display: block;
-}
-#respond input[type=text] {
-	display: block;
-	width: 60%;
-}
-#respond textarea {
-	display: block;
-	margin: 0 0 1em;
-	width: 80%;
-}
-#respond .form-allowed-tags {
-	clear: both;
-	width: 80%;
-}
-#respond .form-allowed-tags code {
-	display: block;
-}
-
-
-/* =Widgets
--------------------------------------------------------------- */
-
-.widget {
-	display: block;
-}
-.widget-area .widget_search {
-	overflow: hidden;
-}
-.widget-area .widget_search input {
-	float: left;
 }

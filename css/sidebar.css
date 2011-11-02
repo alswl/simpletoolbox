@@ -1,57 +1,23 @@
-/*
- Theme Name: SimpleD
- Description: alswl's Theme based on Sandbox
- Version: 0.0.1
- Author: alswl
- Author URI: http://dddspace.com
- License: GNU General Public License (GPL) version 3
- last Date: 2010-03-07
- */
-.sidebar {
-	color: #111;
-	width: 28%;
-	float: right;
-	margin: 0px 0;
-	padding: 5px 0;
-	background: none repeat scroll 0 0 #DDDDDD;
-}
+/*sidebar.css*/
 
-.sidebar ul {
-	list-style-type: none;
-	margin: 2px;
-	padding: 0;
-}
+/* =Widgets
+-------------------------------------------------------------- */
 
-.sidebar ul li ul li {
-	list-style: disc inside;
-	padding: 1px 0;
-	font-size: 1em;
+.widget-area .widget_search {
+	overflow: hidden;
 }
-
-.sidebar h2 {
-	font-size: 100%;
-	margin: 20px 0 0 0;
-	padding: 4px 0;
+.widget-area .widget_search input {
+	float: left;
 }
-
-.sidebar li a {
-	border: none;
+.widget-area h1 {
+	font-size: 1.2em;
 }
-
-.sidebar li ul li ul li {
-	list-style: circle inside;
-	border: none;
-	margin-left: 10px;
+.widget-area {
+    margin-bottom: 10px;
+    padding: 5px 5px 10px;
 }
-
-#searchform label {
-	font-weight: 700;
-}
-
-#searchform #s {
-	width: 50%;
-}
-
-#searchform input.submit {
-	width: 30%;
+.widget-area li{
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom: 3px;
+	padding-bottom: 2px;
 }

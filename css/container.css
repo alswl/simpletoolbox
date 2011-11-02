@@ -1,37 +1,27 @@
 /* container.css */
 
-.sticky {
+.post {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #D5D5D5;
 }
-.entry-meta {
+.post h1 {
+	font-size: 1.6em;
+}
+.post .entry-meta {
 	clear: both;
-	display: block;
+    color: #878789;
+    padding-left: 4px;
 }
-.single-author .entry-meta .byline {
-	display: none;
+.post .entry-content {
+	margin-top: 26px;
+	font-size: 1.16em;
+	line-height: 1.4em;
 }
-#content nav {
-	display: block;
-	overflow: hidden;
+.post .entry-content p {
+    margin: 1em 0;
 }
-#content nav .nav-previous {
-	float: left;
-	width: 50%;
-}
-#content nav .nav-next {
-	float: right;
-	text-align: right;
-	width: 50%;
-}
-#content #nav-above {
-	display: none;
-}
-.paged #content #nav-above,
-.single #content #nav-above {
-	display: block;
-}
-#nav-below {
-	margin: 1em 0 0;
-}
+
 .page-link {
 	clear: both;
 	margin: 0 0 1em;
@@ -64,3 +54,44 @@
 	padding: 1em;
 }
 
+/* =Comments
+-------------------------------------------------------------- */
+#comments-title {
+	font-size: 1.4em;
+}
+#comments .commentlist li {
+	margin: 15px 0 20px;
+	padding: 5px 5px 0 10px;
+}
+#comments .commentlist li .comment-author .avatar {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #EEEEEE;
+	float: left;
+	margin-right: 10px;
+	padding: 2px;
+}
+#comments .commentlist li .comment-author .fn .url {
+	font-weight: bold;
+}
+#comments .commentlist li .comment-meta {
+	margin: 5px 0 15px 5px;
+}
+#comments .commentlist li .comment-content {
+	background: none repeat scroll 0 0 #EFEFEF;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px;
+	margin: 10px 5px 10px 0;
+	clear: both;
+}
+
+#respond #reply-title {
+	font-size: 1.4em;
+}
+#commentform label {
+	color: #888888;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 200px;
+}
