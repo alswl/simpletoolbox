@@ -87,11 +87,17 @@
 #respond #reply-title {
 	font-size: 1.4em;
 }
+#commentform p {
+	clear: both;
+}
 #commentform label {
 	color: #888888;
     float: left;
     font-weight: bold;
     margin-bottom: 10px;
     padding-top: 5px;
-    width: 200px;
+    width: 120px;
+}
+#commentform .required {
+	color: #cc0033;
 }

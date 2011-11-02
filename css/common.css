@@ -360,8 +360,3 @@ input#s {
 textarea {
 	width: 80%;
 }
-
-/* Class for labelling required form items */
-.required {
-	color: #cc0033;
-}
