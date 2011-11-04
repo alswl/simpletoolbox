@@ -53,17 +53,40 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.jparallax.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#parallax').jparallax({});//.append(corners);
+});
+</script>
 
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
-	<header id="branding" role="banner">
-		<hgroup>
+	<header id="branding" role="banner" style="position:relative;">
+		<hgroup id="site-header">
 			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<div id="logo"></div>
 		</hgroup>
+		<div id="parallax" class="clear" style="width: 800px; overflow: hidden; background: 0% 0% rgb(150, 172, 193); height: 280px; position: relative;float:right">
+			<div style="width:860px; height:273px;">
+				<img src="<?php bloginfo('template_directory') ?>/images/0_sun.png" style="position:absolute;left:300px;top:-12px;"/>
+			</div>
+			<div style="width:920px; height:274px;">
+				<img src="<?php bloginfo('template_directory') ?>/images/1_mountains.png"/>
+
+			</div>
+			<div style="width:1100px; height:284px;">
+				<img src="<?php bloginfo('template_directory') ?>/images/2_hill.png" style="position:absolute; top:40px; left:0;" />
+			</div>
+			<div style="width:1360px; height:320px;">
+				<img src="<?php bloginfo('template_directory') ?>/images/3_wood.png" style="position:absolute; top:96px; left:0;"/>
+			</div>
+		</div>
 
 		<nav id="access" role="navigation">
 			<?php /*<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'toolbox' ); ?></h1> */ ?>
@@ -71,6 +94,7 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #access -->
+
 	</header><!-- #branding -->
 
 	<div id="main">
