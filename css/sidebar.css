@@ -15,6 +15,7 @@
 .widget-area {
     margin-bottom: 10px;
     padding: 5px 5px 10px;
+	border-left: 2px solid #ccc;
 }
 .widget-area li{
 	border-bottom: 1px solid #E8E8E8;
