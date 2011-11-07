@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2011-11-07 10:30+0800\n"
+"PO-Revision-Date: 2011-11-07 10:54+0800\n"
 "Last-Translator: alswl <alswlx@gmail.com>\n"
 "Language-Team: alswl <alswlx@gmail.com>\n"
 "X-Poedit-Language: Chinese\n"
@@ -67,15 +67,15 @@ msgstr ""
 
 #: author.php:28
 msgid "Author Archives: %s"
-msgstr ""
+msgstr "按作者归档： %s"
 
 #: category.php:19
 msgid "Category Archives: %s"
-msgstr ""
+msgstr "按分类文章归档： %s"
 
 #: comments.php:17
 msgid "This post is password protected. Enter the password to view any comments."
-msgstr ""
+msgstr "这篇文章被密码保护，只能输入密码才能查看。"
 
 #: comments.php:33
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -86,17 +86,17 @@ msgstr[1] ""
 #: comments.php:40
 #: comments.php:60
 msgid "Comment navigation"
-msgstr ""
+msgstr "评论导航"
 
 #: comments.php:41
 #: comments.php:61
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; 较老评论"
 
 #: comments.php:42
 #: comments.php:62
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "较新评论 &rarr;"
 
 #: comments.php:72
 msgid "Comments are closed."
@@ -161,9 +161,7 @@ msgstr "编辑"
 
 #: content-gallery.php:44
 msgid "This gallery contains <a %1$s>%2$s photo</a>."
-msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
-msgstr[0] ""
-msgstr[1] ""
+msgstr "This gallery contains <a %1$s>%2$s photos</a>."
 
 #. translators: used between list items, there is a space after the comma
 #: content-gallery.php:59
@@ -187,19 +185,19 @@ msgstr "标签 %s"
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:33
 msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
+msgstr "本文标签 %2$s。<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">永久链接</a>."
 
 #: content-single.php:35
 msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
+msgstr "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">永久链接</a>."
 
 #: content-single.php:41
 msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
+msgstr "本文发布在 %1$s 标签 %2$s。 <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">永久链接</a>."
 
 #: content-single.php:43
 msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
+msgstr "本文发布在 %1$s。 <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">永久链接</a>."
 
 #: footer.php:18
 msgid "http://wordpress.org/"
@@ -219,7 +217,7 @@ msgstr "Theme: %1$s by %2$s."
 
 #: functions.php:66
 msgid "Primary Menu"
-msgstr ""
+msgstr "主菜单"
 
 #: functions.php:104
 msgid "Sidebar 1"
@@ -231,11 +229,11 @@ msgstr "Sidebar 2"
 
 #: functions.php:115
 msgid "An optional second sidebar area"
-msgstr ""
+msgstr "一个可选的第二侧边栏"
 
 #: functions.php:135
 msgid "Post navigation"
-msgstr ""
+msgstr "文章导航"
 
 #: functions.php:139
 msgctxt "Previous post link"
@@ -249,7 +247,7 @@ msgstr "&rarr;"
 
 #: functions.php:145
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> 较老文章"
 
 #: functions.php:149
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
@@ -266,7 +264,7 @@ msgstr "(编辑)"
 
 #: functions.php:188
 msgid "%s <span class=\"says\">says:</span>"
-msgstr ""
+msgstr "%s <span class=\"says\">说：</span>"
 
 #: functions.php:191
 msgid "Your comment is awaiting moderation."
@@ -279,7 +277,7 @@ msgstr "%1$s at %2$s"
 
 #: functions.php:227
 msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
+msgstr "<span class=\"sep\">发布在 </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> 作者 </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #: functions.php:233
 msgid "View all posts by %s"
@@ -291,7 +289,7 @@ msgstr "页面 %s"
 
 #: header.php:68
 msgid "Main menu"
-msgstr ""
+msgstr "主菜单"
 
 #: header.php:69
 msgid "Skip to content"
@@ -299,15 +297,15 @@ msgstr "跳到内容"
 
 #: image.php:24
 msgid "Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
-msgstr ""
+msgstr "Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
 
 #: image.php:38
 msgid "&larr; Previous"
-msgstr ""
+msgstr "&larr; 上一个"
 
 #: image.php:39
 msgid "Next &rarr;"
-msgstr ""
+msgstr "下一个 &rarr;"
 
 #: image.php:92
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
@@ -319,7 +317,7 @@ msgstr "评论被关闭，但你可以留一个 trackback: <a class=\"trackback-
 
 #: image.php:96
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr "Trackbacks 被关闭，但是你可以 <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">留下评论</a>."
+msgstr "Trackbacks 被关闭，但是你可以 <a class=\"comment-link\" href=\"#respond\" title=\"添加评论\">添加评论</a>."
 
 #: image.php:98
 msgid "Both comments and trackbacks are currently closed."
@@ -331,7 +329,7 @@ msgstr "您的搜索结果："
 
 #: search.php:40
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "怎么没有你要找的东西呢！请确定你要查找的内容。也可以在下面的搜索栏中重新搜索你想要的内容"
+msgstr "抱歉，找不到您需要的东西。请尝试其他关键词。"
 
 #: sidebar.php:25
 msgid "Meta"
