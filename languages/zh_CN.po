@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2011-11-02 10:07+0800\n"
+"PO-Revision-Date: 2011-11-07 10:30+0800\n"
 "Last-Translator: alswl <alswlx@gmail.com>\n"
 "Language-Team: alswl <alswlx@gmail.com>\n"
 "X-Poedit-Language: Chinese\n"
@@ -33,20 +33,20 @@ msgstr ""
 
 #: archive.php:26
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "博客文章日存档： %s"
 
 #: archive.php:28
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "博客文章月存档： %s"
 
 #: archive.php:30
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "博客文章年存档： %s"
 
 #: archive.php:32
 #: sidebar.php:18
 msgid "Archives"
-msgstr ""
+msgstr "存档"
 
 #: archive.php:61
 #: author.php:60
@@ -55,7 +55,7 @@ msgstr ""
 #: search.php:36
 #: tag.php:52
 msgid "Nothing Found"
-msgstr ""
+msgstr "没找到您想要的东西"
 
 #: archive.php:65
 #: author.php:64
@@ -100,7 +100,7 @@ msgstr ""
 
 #: comments.php:72
 msgid "Comments are closed."
-msgstr ""
+msgstr "评论被关闭。"
 
 #: content-aside.php:15
 #: content-gallery.php:15
@@ -108,14 +108,14 @@ msgstr ""
 #: content-image.php:15
 #: content.php:10
 msgid "Permalink to %s"
-msgstr ""
+msgstr "永久链接 %s"
 
 #: content-aside.php:24
 #: content-gallery.php:29
 #: content-image.php:19
 #: content.php:25
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-aside.php:25
 #: content-gallery.php:51
@@ -125,28 +125,28 @@ msgstr ""
 #: content.php:26
 #: image.php:86
 msgid "Pages:"
-msgstr ""
+msgstr "页面："
 
 #: content-aside.php:33
 #: content-gallery.php:81
 #: content-image.php:27
 #: content.php:56
 msgid "Leave a comment"
-msgstr ""
+msgstr "添加评论"
 
 #: content-aside.php:33
 #: content-gallery.php:81
 #: content-image.php:27
 #: content.php:56
 msgid "1 Comment"
-msgstr ""
+msgstr "1 评论"
 
 #: content-aside.php:33
 #: content-gallery.php:81
 #: content-image.php:27
 #: content.php:56
 msgid "% Comments"
-msgstr ""
+msgstr "% 评论"
 
 #: content-aside.php:35
 #: content-gallery.php:85
@@ -157,7 +157,7 @@ msgstr ""
 #: image.php:34
 #: image.php:100
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: content-gallery.php:44
 msgid "This gallery contains <a %1$s>%2$s photo</a>."
@@ -172,17 +172,17 @@ msgstr[1] ""
 #: content.php:34
 #: content.php:45
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: content-gallery.php:63
 #: content.php:38
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "分类于  %s"
 
 #: content-gallery.php:74
 #: content.php:49
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "标签 %s"
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:33
@@ -203,19 +203,19 @@ msgstr ""
 
 #: footer.php:18
 msgid "http://wordpress.org/"
-msgstr ""
+msgstr "http://wordpress.org/"
 
 #: footer.php:18
 msgid "Semantic Personal Publishing Platform"
-msgstr ""
+msgstr "语义化的个人发布平台"
 
 #: footer.php:18
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Proudly powered by %s"
 
 #: footer.php:20
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Theme: %1$s by %2$s."
 
 #: functions.php:66
 msgid "Primary Menu"
@@ -223,11 +223,11 @@ msgstr ""
 
 #: functions.php:104
 msgid "Sidebar 1"
-msgstr ""
+msgstr "Sidebar 1"
 
 #: functions.php:113
 msgid "Sidebar 2"
-msgstr ""
+msgstr "Sidebar 2"
 
 #: functions.php:115
 msgid "An optional second sidebar area"
@@ -240,12 +240,12 @@ msgstr ""
 #: functions.php:139
 msgctxt "Previous post link"
 msgid "&larr;"
-msgstr ""
+msgstr "&larr;"
 
 #: functions.php:140
 msgctxt "Next post link"
 msgid "&rarr;"
-msgstr ""
+msgstr "&rarr;"
 
 #: functions.php:145
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
@@ -253,16 +253,16 @@ msgstr ""
 
 #: functions.php:149
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "较新文章<span class=\"meta-nav\">&raquo;</span>"
 
 #: functions.php:178
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback:"
 
 #: functions.php:178
 #: functions.php:201
 msgid "(Edit)"
-msgstr ""
+msgstr "(编辑)"
 
 #: functions.php:188
 msgid "%s <span class=\"says\">says:</span>"
@@ -270,12 +270,12 @@ msgstr ""
 
 #: functions.php:191
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "您的留言在等待审核中。"
 
 #. translators: 1: date, 2: time
 #: functions.php:199
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s at %2$s"
 
 #: functions.php:227
 msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
@@ -283,11 +283,11 @@ msgstr ""
 
 #: functions.php:233
 msgid "View all posts by %s"
-msgstr ""
+msgstr "按%s查看所有文章"
 
 #: header.php:45
 msgid "Page %s"
-msgstr ""
+msgstr "页面 %s"
 
 #: header.php:68
 msgid "Main menu"
@@ -295,7 +295,7 @@ msgstr ""
 
 #: header.php:69
 msgid "Skip to content"
-msgstr ""
+msgstr "跳到内容"
 
 #: image.php:24
 msgid "Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
@@ -311,57 +311,59 @@ msgstr ""
 
 #: image.php:92
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr ""
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"写一条评论\">写一条评论</a> 或者留一个 trackback: <a class=\"trackback-link\" href=\"%s\" title=\"你文章的Trackback URL\" rel=\"trackback\">Trackback URL</a>."
 
 #: image.php:94
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr ""
+msgstr "评论被关闭，但你可以留一个 trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback 地址</a>."
 
 #: image.php:96
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr ""
+msgstr "Trackbacks 被关闭，但是你可以 <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">留下评论</a>."
 
 #: image.php:98
 msgid "Both comments and trackbacks are currently closed."
-msgstr ""
+msgstr "评论和trackbacks都被关闭"
 
 #: search.php:18
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "您的搜索结果："
 
 #: search.php:40
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "怎么没有你要找的东西呢！请确定你要查找的内容。也可以在下面的搜索栏中重新搜索你想要的内容"
 
 #: sidebar.php:25
 msgid "Meta"
-msgstr ""
+msgstr "功能"
 
 #: tag.php:19
 msgid "Tag Archives: %s"
-msgstr ""
+msgstr "按标签存档："
 
 #. Theme Name of the plugin/theme
 msgid "Toolbox"
-msgstr ""
+msgstr "Toolbox"
 
 #. Theme URI of the plugin/theme
 msgid "http://wordpress.org/extend/themes/toolbox"
-msgstr ""
+msgstr "http://wordpress.org/extend/themes/toolbox"
 
 #. Description of the plugin/theme
+#, fuzzy
 msgid "A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development."
-msgstr ""
+msgstr "一个语义化、基于HTML5、canvas、精简干净从而可以让你自己开发的WordPress主题。"
 
 #. Author of the plugin/theme
 msgid "Automattic"
-msgstr ""
+msgstr "Automattic"
 
 #. Author URI of the plugin/theme
 msgid "http://automattic.com/"
-msgstr ""
+msgstr "http://automattic.com/"
 
 #. Tags of the plugin/theme
+#, fuzzy
 msgid "custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats, blog, minimal"
-msgstr ""
+msgstr "自定义菜单，sticky-post，微格式，支持RTL语言，翻译完备，全宽模板，多格式博文，博客，小巧"
 
