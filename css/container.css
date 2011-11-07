@@ -8,6 +8,11 @@
 .post h1, .page h1 {
 	font-size: 1.6em;
 }
+
+.post h1, .post h2, .post h3, .post h4, .post h5,
+.page h1, .page h2, .page h3, .page h4, .page h5 {
+	font-family: 'Yanone Kaffeesatz','Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
 .entry-meta {
 	clear: both;
     color: #878789;

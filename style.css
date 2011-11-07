@@ -8,6 +8,8 @@ License: GNU General Public License (GPL) version 3
 last Date: 2011-11-01
 */
 
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700);
+
 @import url(css/reset.css);
 @import url(css/common.css);
 @import url(css/layout.css);
@@ -15,12 +17,3 @@ last Date: 2011-11-01
 @import url(css/container.css);
 @import url(css/sidebar.css);
 @import url(css/footer.css);
-
-/* Text meant only for screen readers */
-.screen-reader-text,
-.assistive-text {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-}
-
