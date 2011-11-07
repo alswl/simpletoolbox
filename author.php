@@ -52,6 +52,7 @@ get_header(); ?>
 				<?php endwhile; ?>
 
 				<?php //toolbox_content_nav( 'nav-below' ); ?>
+				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 
 			<?php else : ?>
 
