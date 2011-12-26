@@ -36,7 +36,9 @@
 	border-left: 10px #71D8FF solid;
 	padding: 0 0 0 30px;
 }
-.entry-content p, .entry-content ul, .entry-content ol,  .entry-content pre, .entry-content blockquote {
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, 
+.entry-content p, .entry-content ul, .entry-content ol,  .entry-content pre,
+.entry-content blockquote {
     margin: 1em 0;
 }
 .entry-content pre, .entry-content blockquote {
