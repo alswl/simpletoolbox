@@ -38,7 +38,7 @@
 }
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, 
 .entry-content p, .entry-content ul, .entry-content ol,  .entry-content pre,
-.entry-content blockquote {
+.entry-content blockquote, .entry-content dl {
     margin: 1em 0;
 }
 .entry-content pre, .entry-content blockquote {
@@ -52,6 +52,13 @@
 .entry-content ol li{
 	list-style: decimal inside;
 }
+.entry-content dt {
+    margin: 1em 0 0.5em;
+}
+.entry-content dd {
+    margin: 0.5em 0;
+}
+
 .entry-content table {
 	background: #FFF;
 	border: 2px solid #CCC;
